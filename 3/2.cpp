@@ -55,13 +55,10 @@ void scitaj(bignum &a, bignum &b, bignum &c) {
   int size, tmp = 0; //maximal size
   a.pocet_cifier > b.pocet_cifier ? size = a.pocet_cifier
                                   : size = b.pocet_cifier;
-  //cout << size << endl;
   c.pocet_cifier = size;
   for (int i = 0; i < size; i++) {
     tmp = tmp / 10;
     tmp += a.cifry[i] + b.cifry[i];
-    //cout << tmp << "  " << tmp % 10 << endl;
-    //if(a.cifry[i]==0 )  {c.pocet_cifier=i; break;}
     c.cifry[i] = tmp % 10;
   }
   if(tmp / 10 > 0) {c.cifry[c.pocet_cifier++]=1;}
