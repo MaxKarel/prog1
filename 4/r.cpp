@@ -13,9 +13,8 @@ int main() {
 }
 
 void print_binary(int n) {
-  if(n > 0) {
+  if (n > 0) {
     print_binary(n / 2);
     cout << n % 2;
   }
-
 }
