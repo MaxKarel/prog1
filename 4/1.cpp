@@ -27,20 +27,15 @@ void vypisBool(bool a[], int n) {
  * poziciach i..n-1 tak, aby sme nastavili estePrvkov poloziek na
  * true. */
 void generujPodmnoziny(bool a[], int i, int n, int estePrvkov) {
-  if(estePrvkov!=0) {
-    for(int j = i ; j <= n ; j++) {
-      a[j]=true;
-      //cout << i << "|" << estePrvkov << endl << '\t';
-      for(int k = 0 ; k < n ; k ++) {
-        //cout << a[k] << " ";
-      }
-      //cout << endl;
-      generujPodmnoziny(a, i+1, n, estePrvkov-1);
-      a[j]= false;
+  if (i <= n) {
+    if (estePrvkov != 0) {
+      a[i] = true;
+      generujPodmnoziny(a, i + 1, n, estePrvkov - 1);
+      a[i] = false;
+      generujPodmnoziny(a, i + 1, n, estePrvkov);
+    } else {
+      vypisBool(a, n);
     }
-  } else {
-    vypisBool(a, n);
-    //cout << "VYPIS" << i << endl;
   }
 }
 
