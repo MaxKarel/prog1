@@ -1,0 +1,4 @@
+22
+Krabica 0: 12 10
+Krabica 1: 11 6 5
+Krabica 2: 8 7 7
