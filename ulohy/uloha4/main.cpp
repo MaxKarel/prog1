@@ -5,6 +5,20 @@
 using namespace std;
 
 struct player {
+  /* struct describing one player, with position of all his pieces and
+  methods:
+    * constructor player(int F, int position):
+      * Initialize player > set position of all pieces to -1(home)
+    * print_state():
+      * self explanatory
+    * move()
+    * remove_fig();
+      * Change position of piece standing on pos_of_removed to home
+    * finish():
+      * Change position of piece i to finish(-2)
+    * deploy():
+      * put new piece onto starting position
+  */
   int h_pos, F, player_start_pos, player_end_pos;
   vector<int> f_pos;
   void print_state() {
@@ -66,6 +80,9 @@ struct game {
   vector<player> players;
   vector<int> game_plan;
   bool init_game(int H, int N, int F) {
+    /* Init game
+      crete vectors
+    */
     this->H = H;
     this->N = N;
     this->F = F;
@@ -79,7 +96,7 @@ struct game {
     return true;
   }
   void turn(int dice, int i) {
-    int current, end;
+    int current, end; // starting and finishing position of pieces
     bool move = true;
     cout << "hrac " << active_player << " hodil " << dice << endl;
     current = (i == -1) ? -1 : players[active_player].f_pos[i];
@@ -104,6 +121,10 @@ struct game {
     }
   }
   void start() {
+    /*
+    This is core function of the game:
+      * Manages input, who is active player and interprets commands
+    */
     int figure, dice;
     string command;
     // canf("%s %d %d", &command, &a, &b);
@@ -128,7 +149,7 @@ struct game {
 
 int main() {
   int H, N, F;
-  game Game;
+  game Game; // crete object Game
   scanf("%*s %d %*s %d %*s %d", &H, &N, &F);
   if (Game.init_game(H, N, F)) {
     Game.start();
