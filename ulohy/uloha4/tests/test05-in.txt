@@ -1,0 +1,9 @@
+hracov 2 policok 100 figurok 1
+hrac 0 start 1 ciel 7
+hrac 1 start 1 ciel 7
+tah 6 0
+tah 3 -1
+tah 2 0
+tah 6 0
+vypis
+koniec

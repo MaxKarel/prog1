@@ -1,0 +1,108 @@
+hrac 0 hodil 6
+ start figurky 0 hraca 0 na policku 1
+hrac 1 hodil 6
+ start figurky 0 hraca 1 na policku 10
+hrac 2 hodil 6
+ start figurky 0 hraca 2 na policku 2
+hrac 3 hodil 2
+hrac 4 hodil 6
+ start figurky 0 hraca 4 na policku 4
+hrac 0 hodil 2
+ posun figurky 0 hraca 0 na policko 3
+hrac 1 hodil 6
+ start figurky 1 hraca 1 na policku 10
+ vyhodena figurka 0 hraca 1
+hrac 2 hodil 3
+ posun figurky 0 hraca 2 na policko 5
+hrac 3 hodil 4
+hrac 4 hodil 2
+ posun figurky 0 hraca 4 na policko 6
+hrac 0 hodil 4
+ posun figurky 0 hraca 0 na policko 7
+hrac 1 hodil 3
+ posun figurky 1 hraca 1 na policko 1
+hrac 2 hodil 6
+ start figurky 1 hraca 2 na policku 2
+hrac 3 hodil 6
+ start figurky 0 hraca 3 na policku 1
+ vyhodena figurka 1 hraca 1
+hrac 4 hodil 3
+ posun figurky 0 hraca 4 na policko 9
+hrac 0 hodil 1
+ posun figurky 0 hraca 0 na policko 8
+hrac 1 hodil 1
+hrac 2 hodil 6
+ start figurky 2 hraca 2 na policku 2
+ vyhodena figurka 1 hraca 2
+hrac 3 hodil 5
+ posun figurky 0 hraca 3 na policko 6
+hrac 4 hodil 4
+ posun figurky 0 hraca 4 na policko 1
+hrac 0 hodil 3
+ posun figurky 0 hraca 0 na policko 11
+hrac 1 hodil 4
+hrac 2 hodil 5
+ posun figurky 2 hraca 2 na policko 7
+hrac 3 hodil 3
+ posun figurky 0 hraca 3 na policko 9
+hrac 4 hodil 6
+ start figurky 1 hraca 4 na policku 4
+hrac 0 hodil 1
+ posun figurky 0 hraca 0 na policko 0
+ figurka 0 hraca 0 dosiahla ciel
+hrac 1 hodil 5
+hrac 2 hodil 5
+ posun figurky 2 hraca 2 na policko 0
+hrac 3 hodil 6
+ start figurky 1 hraca 3 na policku 1
+ vyhodena figurka 0 hraca 4
+hrac 4 hodil 3
+ posun figurky 1 hraca 4 na policko 7
+hrac 0 hodil 2
+hrac 1 hodil 5
+hrac 2 hodil 6
+ start figurky 1 hraca 2 na policku 2
+hrac 3 hodil 4
+ posun figurky 1 hraca 3 na policko 5
+ vyhodena figurka 0 hraca 2
+hrac 4 hodil 6
+ start figurky 0 hraca 4 na policku 4
+hrac 0 hodil 6
+ start figurky 1 hraca 0 na policku 1
+hrac 1 hodil 6
+ start figurky 0 hraca 1 na policku 10
+hrac 2 hodil 5
+ posun figurky 2 hraca 2 na policko 5
+ vyhodena figurka 1 hraca 3
+hrac 3 hodil 2
+ posun figurky 0 hraca 3 na policko 11
+hrac 4 hodil 1
+ posun figurky 0 hraca 4 na policko 5
+ vyhodena figurka 2 hraca 2
+ figurka 0 hraca 4 dosiahla ciel
+hrac 0 hodil 5
+ posun figurky 1 hraca 0 na policko 6
+hrac 1 hodil 1
+ posun figurky 0 hraca 1 na policko 11
+ vyhodena figurka 0 hraca 3
+ figurka 0 hraca 1 dosiahla ciel
+hrac 2 hodil 6
+ start figurky 0 hraca 2 na policku 2
+ vyhodena figurka 1 hraca 2
+hrac 3 hodil 5
+hrac 4 hodil 3
+ posun figurky 1 hraca 4 na policko 10
+hrac 0 hodil 3
+ posun figurky 1 hraca 0 na policko 9
+hrac 1 hodil 5
+hrac 2 hodil 4
+ posun figurky 0 hraca 2 na policko 6
+hrac 3 hodil 5
+hrac 4 hodil 4
+ posun figurky 1 hraca 4 na policko 2
+stav hry:
+ hrac 0: figurka 0 skoncila, figurka 1 na policku 9, figurka 2 mimo
+ hrac 1: figurka 0 skoncila, figurka 1 mimo, figurka 2 mimo
+ hrac 2: figurka 0 na policku 6, figurka 1 mimo, figurka 2 mimo
+ hrac 3: figurka 0 mimo, figurka 1 mimo, figurka 2 mimo
+ hrac 4: figurka 0 skoncila, figurka 1 na policku 2, figurka 2 mimo
