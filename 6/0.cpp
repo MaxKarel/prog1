@@ -95,12 +95,15 @@ void addColumn(vector2d &a, int x) {
   if(a.m+1>a.maxM) {
     //cout << "INCREASING" << endl;
     int** tmp;
-    tmp = vytvorMaticu(a.n, a.m);
+    tmp = vytvorMaticu(a.n, a.maxM*2);
     skopirujMaticu(tmp, a.a, a.n, a.m);
     zmazMaticu(a.a, a.maxN);
+    a.a = tmp;
     a.maxM *= 2;
-    a.a = vytvorMaticu(a.maxN, a.maxM);
-    skopirujMaticu(a.a, tmp, a.n, a.m);
+
+
+    /*a.a = vytvorMaticu(a.maxN, a.maxM);
+    skopirujMaticu(a.a, tmp, a.n, a.m);*/
     //cout << "mazem druhy krat" << endl;
     //zmazMaticu(tmp, a.maxN);
     vyplnMaticu(a.a, 0, a.n-1, a.m, a.m, x);
