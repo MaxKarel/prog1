@@ -1,0 +1,6 @@
+7
+Krabica 0: 1 6
+Krabica 1: 7
+Krabica 2: 2 3
+Krabica 3: 6
+Krabica 4: 7

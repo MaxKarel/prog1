@@ -1,0 +1,13 @@
+hrac 0 hodil 6
+ start figurky 0 hraca 0 na policku 0
+hrac 1 hodil 6
+ start figurky 0 hraca 1 na policku 2
+hrac 0 hodil 2
+ posun figurky 0 hraca 0 na policko 2
+ vyhodena figurka 0 hraca 1
+ figurka 0 hraca 0 dosiahla ciel
+hrac 1 hodil 6
+ start figurky 0 hraca 1 na policku 2
+stav hry:
+ hrac 0: figurka 0 skoncila
+ hrac 1: figurka 0 na policku 2

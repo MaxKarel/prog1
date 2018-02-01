@@ -1,0 +1,5 @@
+10
+Krabica 0: 10
+Krabica 1: 3 3 3
+Krabica 2: 5 4
+Krabica 3:
